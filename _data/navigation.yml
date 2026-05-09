@@ -8,23 +8,17 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "The Codex Cronenberg"
+    url: /crodex/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Heathcliff Semiotics"
+    url: /garfield/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Film Nonsense"
+    url: /moveys/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
+  - title: "Other Media"
+    url: /shirja/
     
   # - title: "CV"
   #   url: /cv-json/
