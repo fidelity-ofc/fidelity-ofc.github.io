@@ -23,7 +23,7 @@ repository               : fidelity-ofc.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "heat.png"
+  avatar           : heat.png
   name             : "Call me Deli the way I'm sliced meat"
   pronouns         : # example: "she/her"  
   bio              : "Have you ever watched movies? Like actually watched them?"
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://letterboxd.com/deli_ofc/" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -79,7 +79,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : @Deli_oFC # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -92,7 +92,7 @@ publication_category:
     title: 'Other Media'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : heat.png # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
