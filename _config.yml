@@ -23,7 +23,7 @@ repository               : fidelity-ofc.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : heat.png
+  avatar           : files/heat.png
   name             : "Call me Deli the way I'm sliced meat"
   pronouns         : # example: "she/her"  
   bio              : "Have you ever watched movies? Like actually watched them?"
