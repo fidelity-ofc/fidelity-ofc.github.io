@@ -62,11 +62,12 @@ author:
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
+  letterboxd       : "https://letterboxd.com/deli_ofc/"
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://letterboxd.com/deli_ofc/" # Username
+  linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
