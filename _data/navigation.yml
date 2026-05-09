@@ -20,8 +20,8 @@ main:
   - title: "Other Media"
     url: /shirja/
     
-  - title: "Mine Own Art"
-     url: /portfolio/
+  # - title: "Mine Own Art"
+  #   url: /portfolio/
     
   - title: "Guide"
     url: /markdown/
