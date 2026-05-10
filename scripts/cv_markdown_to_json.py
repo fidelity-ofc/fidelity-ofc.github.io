@@ -144,7 +144,7 @@ def extract_author_info(config):
             profiles.append({
                 "network": "LinkedIn",
                 "username": author.get('linkedin'),
-                "url": f"https://www.linkedin.com/in/{author.get('linkedin')}"
+                "url": f"https://www.letterboxd.com/{author.get('linkedin')}"
             })
         
         if author.get('twitter'):
