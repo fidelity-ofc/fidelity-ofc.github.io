@@ -21,6 +21,7 @@ repository               : "fidelity-ofc.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
+html_content: > <audio controls><source src="https://64.media.tumblr.com/0eeb2abe849c59f850f638ff454ae46d/d6e11cb739f8d9db-64/8939f5b181f4b354fa1872fe9583d85f16d363c3.mp3" type="audio/mpeg"></audio> 
 author:
   # Biographic information
   avatar           : "heat.png"
@@ -92,7 +93,7 @@ publication_category:
     title: 'Talks'
 
 # Site Settings
-teaser                   : "scall.png" # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "https://github.com/fidelity-ofc/fidelity-ofc.github.io/blob/master/images/scall.png?raw=true" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
