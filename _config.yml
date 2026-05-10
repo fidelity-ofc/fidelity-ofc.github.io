@@ -85,11 +85,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Publications'
+    title: 'Books'
   manuscripts:
-    title: 'Manuscripts'    
+    title: 'Journal Articles'    
   conferences:
-    title: 'Talks'
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   : "https://github.com/fidelity-ofc/fidelity-ofc.github.io/blob/master/images/scall.png?raw=true" # filename of teaser fallback teaser image placed in /images/ for social media previews
