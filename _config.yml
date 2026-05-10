@@ -92,7 +92,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   : "https://raw.githubusercontent.com/fidelity-ofc/fidelity-ofc.github.io/54e4e3d927bfe246e3b4cd46af1b7c08db7a2563/images/favicon.svg" # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "https://github.com/fidelity-ofc/fidelity-ofc.github.io/images/favicon.svg" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
