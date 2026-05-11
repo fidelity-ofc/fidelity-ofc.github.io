@@ -18,7 +18,6 @@ We are going to go diving for pearls and the oysters producing them are books an
 ======
 # Let's just get a little silly with it!!
 
-<script src="https://transring.neocities.org/ring.js"></script>
 
 Until I figure out how to manipulate AcademicPages to my will, I'll have some links right here:
 - [My main tumblr](manipulated-pieces.tumblr.com)
