@@ -233,6 +233,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  robots:
+    output: true
+    permalink: /:collection/:path/
+  jacksonian:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -280,8 +286,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -290,6 +296,24 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _robots
+  - scope:
+      path: ""
+      type: robots
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+  # _jacksonian
+  - scope:
+      path: ""
+      type: jacksonian
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
 
 
 # Sass/SCSS
