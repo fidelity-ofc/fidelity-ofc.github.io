@@ -11,17 +11,17 @@ main:
   - title: "The Codex Cronenberg"
     url: /crodex/
 
-  - title: "Heathcliff Semiotics"
-    url: /garfield/    
+  # - title: "Heathcliff Semiotics"
+    # url: /garfield/    
 
-  - title: "Film Nonsense"
-    url: /moveys/    
+  # - title: "Film Nonsense"
+    # url: /moveys/    
     
   - title: "Other Media"
     url: /shirja/
     
-  # - title: "Mine Own Art"
-  #   url: /DeepSpace/
+  - title: "Cartomancy"
+    url: /tarot/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+    # url: /markdown/
