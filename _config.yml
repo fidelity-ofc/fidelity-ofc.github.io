@@ -239,6 +239,9 @@ collections:
   jacksonian:
     output: true
     permalink: /:collection/:path/
+  tarot:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -309,6 +312,15 @@ defaults:
   - scope:
       path: ""
       type: jacksonian
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+  # _tarot
+  - scope:
+      path: ""
+      type: tarot
     values:
       layout: single
       author_profile: true
