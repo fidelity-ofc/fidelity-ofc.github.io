@@ -76,6 +76,51 @@ redirect_from:
 }
 </style>
 
+<div style="border: ridge; width: fit-content;">
+<h2 style="display:inline"> Geocities Archive Brancher</h2>
+<hr>
+<p>Paste a link into the bar here and click "Branch It!"</p>
+<p>The three links below it will update to open new tabs to the corresponding archive pages.</p>
+<small> (links are set to open in new tab)</small>
+<hr>
+
+<form> 
+  <div>
+    <label for="gurl"> Full Original Geocities URL: </label>
+    <input 
+    type="text" 
+    id="gurl" 
+    name="geourl"
+    placeholder="http://www.geocities.com/Area51/Cavern/8434/" 
+    size="45"/>
+  </div>
+  <div>
+    <button id="branch">Branch It!</button>
+  </div>
+</form>
+
+
+<script>
+document.getElementById("branch").addEventListener("click", function(event) {
+  event.preventDefault();
+  var gurl = document.getElementById("gurl").value;
+  var oocite = "https://oocities.org/" + gurl.replace("http://www.geocities.com/", "");
+  var restorativ = "https://geocities.restorativland.org/" + gurl.replace("http://www.geocities.com/", "");
+  var wayback = "https://web.archive.org/web/2009*/" + gurl;
+  document.getElementById("restorativland").href = restorativ;
+  document.getElementById("oocity").href = oocite;
+  document.getElementById("wayback").href = wayback;
+});
+</script>
+
+<a target="_blank" id="restorativland">Restorativland</a>
+<br>
+<a target="_blank" id="oocity">oocities</a>
+<br>
+<a target="_blank" id="wayback">Wayback Machine</a>
+<br>
+</div>
+
 <h3>Any Field Agents under the employ of the Triangle Agency should close this tab unless they want to risk getting slapped with a demerit.</h3>
 <h4>I'm sure U'll find what U're looking for.</h4>
 
