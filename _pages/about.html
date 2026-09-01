@@ -80,7 +80,7 @@ redirect_from:
 <h2 style="display:inline"> Geocities Archive Brancher</h2>
 <hr>
 <p>Paste a link into the bar here and click "Branch It!"</p>
-<p>The three links below it will update to open new tabs to the corresponding archive pages. Oldweb.today is slow but fun.</p>
+<p>The three links below it will update to open new tabs to the corresponding archive pages. Oldweb.today is slow but fun and I've set the button to convert to restorativland and then oldweb.today because coding is hard and I don't want to set it up for other archives at the moment.</p>
 <small> (links are set to open in new tab)</small>
 <hr>
 
@@ -108,7 +108,7 @@ document.getElementById("branch").addEventListener("click", function(event) {
   var oocite = "https://oocities.org/" + gurl.replace("http://www.geocities.com/", "");
   var restorativ = "https://geocities.restorativland.org/" + gurl.replace("http://www.geocities.com/", "");
   var wayback = "https://web.archive.org/web/2009*/" + gurl;
-  var oldweb = "https://oldweb.today/?browser=ns4-win#" + gurl;
+  var oldweb = "https://oldweb.today/?browser=ns4-win#" + restorativ;
   document.getElementById("restorativland").href = restorativ;
   document.getElementById("oocity").href = oocite;
   document.getElementById("wayback").href = wayback;
