@@ -8,12 +8,12 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Hulagirl.txt"
+    url: /hulagirl/  
+
   - title: "The Codex Cronenberg"
     url: /crodex/
-
-  - title: "Hulagirl.txt"
-    url: /hulagirl/    
-
+ 
   # - title: "Film Nonsense"
     # url: /moveys/    
     
@@ -22,6 +22,3 @@ main:
     
   - title: "Cartomancy"
     url: /tarot/
-    
-  # - title: "Guide"
-    # url: /markdown/
