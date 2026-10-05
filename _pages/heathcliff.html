@@ -1,0 +1,126 @@
+---
+layout: archive
+title: "Peter Gallagher's Heathcliff"
+permalink: /heathcliff/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Semiotics is the study of signs and symbols, the interpretation of those, and the way they are emplyed to communicate meaning. I haven't yet read Boudrillard's <i>Simulacra and Simulation</i> and until such time, I will be using the daily comic strip <i>Heathcliff</i> as penned by Peter Gallagher as the arena for sharpening my blade of logic and analysis. I post near daily at <a href="heathcliff-semiotics.tumblr.com">Heathcliff Semiotics on tumblr</a> but the more in depth posts will also be hosted right here.</p>
+
+<p>As a brief primer: Peter Gallagher took over the authorial work of Heathcliff in 1998 and started pushing the comic into a slightly new direction. The town of Westfinster already represented a suburban slice of Americana and that milieu is where he began work on deconstructing and redeveloping the symbols associated with the American Dream and within the canon of Heathcliff. He introduced the now iconic Labeled Helmets and a wider cast of bizarre, sometimes inscrutable characters. Many approach Heathcliff and bounce off confused but the trained and steady have little trouble piecing together the joke and sometimes even finding social commentary within these panels. The penchant for labeling elements of the comic brings in the flavor of political cartoons (which is, in itself, an aspect of the Americana) while the social position of Heathcliff (an adopted stray and outside cat) allows his mere presence to highlight social structures.</p>
+
+<style>
+  .posterquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: no-wrap;
+  }
+
+  .posters-in-the-quee {
+    display: flex;
+    width: max-content;
+    animation: scroll 15s linear infinite;
+  }
+
+.posters-in-the-quee-2 {
+    display: flex;
+    width: max-content;
+    animation: scroll-backwards 35s linear infinite;
+}
+  .grid-cell {
+    width: 120px ;
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+  
+  .grid-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 7s ease;
+  }
+  
+
+  @keyframes scroll {
+  from {
+    transform: translateX(0);
+        }
+  to {
+    /* Translate by half the total width of the content (since we duplicated it) */
+    transform: translateX(-50%);
+       }
+  }
+
+  @keyframes scroll-backwards {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    /* Translate by half the total width of the content (since we duplicated it) */
+    transform: translateX(0%);
+  }
+}
+
+</style>
+
+<div class="posterquee">
+<div class="posters-in-the-quee">
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"><img src="/images/CliffWalk.gif"width="100%" height="100%" /></div>
+    <div class="grid-cell"></div>
+    <div class="grid-cell"></div>
+</div>
+</div>
+<h2>Let's begin the study:</h2>
+
+
+{% for post in site.semiotics %}
+  {% include archive-single.html %}
+{% endfor %}
+
