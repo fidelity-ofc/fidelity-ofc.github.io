@@ -242,6 +242,9 @@ collections:
   tarot:
     output: true
     permalink: /:collection/:path/
+  semiotics:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -321,6 +324,15 @@ defaults:
   - scope:
       path: ""
       type: tarot
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+  # _semiotics
+  - scope:
+      path: ""
+      type: semiotics
     values:
       layout: single
       author_profile: true
