@@ -177,8 +177,23 @@
 </br>
 
 <hr>
-<audio controls style="width:270px;">
-  <source src="https://github.com/fidelity-ofc/fidelity-ofc.github.io/raw/refs/heads/master/files/sayoudo.mp3" type="audio/mpeg">
-</audio>
-<hr>
+<audio id="audioPlayer" controls autoplay style="width: 270px;"></audio>
 
+    <script>
+        const songs = [
+            "/files/bigcity.mp3",
+            "/files/Gripshalla.mp3",
+            "/files/hddr.mp3",
+            "/files/mashtodonlamar.mp3",
+            "/files/Number3.mp3",
+            "/files/overtime.mp3",
+            "/files/paint.mp3",
+            "/files/sayoudo.mp3"
+        ];
+
+        const randomIndex = Math.floor(Math.random() * songs.length);
+        const selectedSong = songs[randomIndex];
+
+        const audioPlayer = document.getElementById("audioPlayer");
+        audioPlayer.src = selectedSong;
+    </script>
