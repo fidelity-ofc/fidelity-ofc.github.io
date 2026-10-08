@@ -92,7 +92,7 @@ function GetKoan()
 
 function GetClown()
 {
-    var clowns = new Array("face1", "face2", "face3", "face4", "face5", "face6");
+    var clowns = new Array("face1", "face2", "face3", "face4", "face5", "face6", "face7", "face8", "face9", "face10");
     var clowndom = clowns[Math.floor(Math.random() * clowns.length)];
     document.getElementById("clown").src="/images/" + clowndom + ".png";
 }
